@@ -30,10 +30,12 @@ This document is intended as a concise reference for all major components and wo
 - Bash
 - Python
 
+<<<
 === 3.2 Frameworks / Toolkits
 - Vert.x 4
 - Node.js
 
+<<<
 === 3.3 Databases & Storage
 - MySQL
 - Redis
@@ -41,6 +43,7 @@ This document is intended as a concise reference for all major components and wo
 - Kafka
 - S3 Bucket
 
+<<<
 === 3.4 Connectivity & Bridges
 - EventBus
 - Kafka
@@ -48,6 +51,7 @@ This document is intended as a concise reference for all major components and wo
 - TCP Bridge
 - HTTP Bridge
 
+<<<
 == 4. Security & Compliance
 - OTP (One-Time Password)
 - OAuth2
@@ -59,12 +63,15 @@ This document is intended as a concise reference for all major components and wo
 - Zero Trust
 - Certificate Authority
 
+<<<
 == 5. Observability & Monitoring
 - Prometheus
 - Telegraf
 
+<<<
 == 6. CI/CD Pipeline
 
+<<<
 === 6.1 Continuous Integration
 - Jenkins
 - Bitbucket
@@ -74,10 +81,12 @@ This document is intended as a concise reference for all major components and wo
 - Slack
 - S3 (Artifact Storage)
 
+<<<
 === 6.2 Continuous Delivery
 - Autoscaling
 - Ansible
 
+<<<
 == 7. Design Solutions & Innovations
 - Mapped Diagnostic Context
 - Rack Leader Election
@@ -93,10 +102,12 @@ This document is intended as a concise reference for all major components and wo
 - SyncToAsync Toolkit
 - Root Password Lifecycle
 
+<<<
 == 8. Operating Environments
 - CentOS 7
 - Amazon Linux 2
 
+<<<
 == 9. Key Achievements / Metrics
 - *Hot Portfolio* – Smart management of hot data for temporal models.
 - *Temporal Module* – Allows deployment of microservices with an effective period to natively control changes in logic.
