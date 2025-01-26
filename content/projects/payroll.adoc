@@ -1,0 +1,104 @@
+= Payroll – Project Overview
+:codename: payroll
+:repository: Private
+:domain: Fintech, Accounting, Salary Calculation, Twelve-Factor Methodology
+:status: Online, Active
+
+[role="description"]
+This document is intended as a concise reference for all major components and workflows within the Payroll project.
+
+== 1. Introduction & Business Context
+- **Project Codename**: `payroll`
+- **Domain**: Fintech, Accounting, Salary Calculation
+- **Methodologies**: Microservice Architecture, Zero Trust Security Principles, Multi-Reactor Pattern, Event-Driven, Actor model
+- **Repository**: Private
+- **Project Status**: Online, Active
+
+== 2. High-Level Architecture Overview
+- **Microservices & Tools**: Consul, Service Discovery, Hazelcast, Zookeeper, Vert.x Modules, Secret Management
+- **Base Structures**: Function, Model, Context, Service, Module, Domain
+
+== 3. Technology Stack
+
+=== 3.1 Languages
+- Java
+- TypeScript
+- SQL
+- HTML
+- CSS
+- Groovy
+- Bash
+- Python
+
+=== 3.2 Frameworks / Toolkits
+- Vert.x 4
+- Node.js
+
+=== 3.3 Databases & Storage
+- MySQL
+- Redis
+- Elasticsearch
+- Kafka
+- S3 Bucket
+
+=== 3.4 Connectivity & Bridges
+- EventBus
+- Kafka
+- SockJS
+- TCP Bridge
+- HTTP Bridge
+
+== 4. Security & Compliance
+- OTP (One-Time Password)
+- OAuth2
+- JWT
+- HashiCorp Vault
+- Auth0
+- SSDLC (Secure Software Development Life Cycle)
+- Compliance Standards
+- Zero Trust
+- Certificate Authority
+
+== 5. Observability & Monitoring
+- Prometheus
+- Telegraf
+
+== 6. CI/CD Pipeline
+
+=== 6.1 Continuous Integration
+- Jenkins
+- Bitbucket
+- JFrog Artifactory
+- Packer
+- Maven
+- Slack
+- S3 (Artifact Storage)
+
+=== 6.2 Continuous Delivery
+- Autoscaling
+- Ansible
+
+== 7. Design Solutions & Innovations
+- Mapped Diagnostic Context
+- Rack Leader Election
+- Hot Portfolio
+- JSON Compare Toolkit
+- Redis-Snapshot & Replication
+- Templating
+- Calculation Reactor
+- ReJSON Client
+- Short-Lived Certificate Lifecycle
+- Temporal Module
+- Delivery
+- SyncToAsync Toolkit
+- Root Password Lifecycle
+
+== 8. Operating Environments
+- CentOS 7
+- Amazon Linux 2
+
+== 9. Key Achievements / Metrics
+- *Hot Portfolio* – Smart management of hot data for temporal models.
+- *Temporal Module* – Allows deployment of microservices with an effective period to natively control changes in logic.
+- *Calculation Reactor* – Pub/sub mechanism based on changes in system/domain/entity/sub-entity/etc data.
+- *Delivery* – Fail tolerant, asynchronous, state-based communication module that allows resource delivery between independent systems.

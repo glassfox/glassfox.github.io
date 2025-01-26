@@ -1,0 +1,42 @@
+name: Generate HTML from AsciiDoc
+
+on:
+  push:
+    paths:
+      - 'content/**.adoc'
+  workflow_dispatch:
+
+jobs:
+  generate-html:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.0'
+
+      - name: Install Asciidoctor
+        run: |
+          gem install asciidoctor
+
+      - name: Find and Convert .adoc Files to HTML
+        run: |
+          mkdir -p output
+          find content -name '*.adoc' -exec sh -c 'asciidoctor -D output "$0"' {} \;
+
+      - name: Upload HTML to GitHub Pages Artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: html-pages
+          path: output
+
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: output
