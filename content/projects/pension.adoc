@@ -1,1 +1,80 @@
 = Pension – Project Overview
+:codename: pension
+:repository: Private
+:domain: Fintech, Accounting, Pension Management, Reporting of Contributions to Provident and Pension Funds
+:status: Online, Active
+
+[role="description"]
+This document serves as a concise reference for all major components and workflows within the Pension project.
+
+== 1. Introduction & Business Context
+- **Project Codename**: `pension`
+- **Domain**: Fintech, Accounting, Pension Management, Reporting of Contributions to Provident and Pension Funds
+- **Methodologies**: Microservices Architecture, Multi-Layer Design, Entity-Based Design, Actor Model
+- **Repository**: Private
+- **Project Status**: Online, Active
+
+== 2. High-Level Architecture Overview
+- **Microservices & Tools**: Service Discovery, Hazelcast, Vert.x Modules, Distributed Locking
+- **Core Components**: Functions, Models, Contexts, Services, Modules
+
+== 3. Technology Stack
+
+=== 3.1 Languages
+- Java
+- SQL
+- HTML
+- CSS
+- Groovy
+- Bash
+- Python
+
+=== 3.2 Frameworks & Toolkits
+- Vert.x 4
+- Mockito
+- Micrometer
+- Maven
+- Guice
+- GlassFish
+- Jakarta XML
+
+=== 3.3 Databases & Storage
+- MySQL
+- Redis
+- Elasticsearch
+- Kafka
+- S3
+- SFTP
+
+=== 3.4 Connectivity
+- EventBus
+- Kafka
+- REST APIs
+
+== 4. Security & Compliance
+- JWT Authentication
+- SSDLC (Secure Software Development Life Cycle)
+- Compliance Standards
+
+== 5. Observability & Monitoring
+- Prometheus
+- Telegraf
+
+== 6. CI/CD Pipeline
+
+=== 6.1 Continuous Integration
+- Jenkins
+- Bitbucket
+- GitHub
+- JFrog Artifactory
+- Packer
+- Maven
+- Discord
+- S3 (Artifact Storage)
+
+=== 6.2 Continuous Delivery
+- Auto Scaling
+- Ansible
+
+== 7. Operating Environments
+- **OS**: Amazon Linux 2023

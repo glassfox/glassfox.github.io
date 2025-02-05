@@ -1,7 +1,7 @@
 = Payroll – Project Overview
 :codename: payroll
 :repository: Private
-:domain: Fintech, Accounting, Salary Calculation, Twelve-Factor Methodology
+:domain: Fintech, Accounting, Salary Calculation
 :status: Online, Active
 
 [role="description"]
